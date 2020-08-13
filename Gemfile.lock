@@ -1,10 +1,19 @@
+GIT
+  remote: https://github.com/mikel/mail.git
+  revision: 8fbb17d4d5364c77cc870769d451bc2739b3a8ce
+  specs:
+    mail (2.8.0.edge)
+      mini_mime (>= 0.1.1)
+
 GEM
   specs:
+    mini_mime (1.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  mail (~> 2.7, >= 2.7.1)!
 
 BUNDLED WITH
    2.0.1
