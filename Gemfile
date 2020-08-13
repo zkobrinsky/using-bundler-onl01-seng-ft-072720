@@ -1,1 +1,1 @@
-gem 'mail', '~> 2.6', '>= 2.6.3'
+gem 'mail', '~> 2.7', '>= 2.7.1', :git => "https://github.com/mikel/mail.git"
